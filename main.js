@@ -136,7 +136,8 @@ function move() {
     stroke("white");
     textSize(25)
     text("Game Over!☹☹", width / 2, height / 2);
-    text("Reload The Page!", width / 2, height / 2 + 30)
+    text("Reload The Page!", width / 2, height / 2 + 30);
+    location.reload();
     noLoop();
     pcscore = 0;
   }
